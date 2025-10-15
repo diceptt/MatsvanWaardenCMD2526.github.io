@@ -24,7 +24,7 @@
     // ---
 
     let model = null, webcam = null;
-    const confidenceThreshold = 0.9; 
+    const confidenceThreshold = 0.7; 
     const maxThreshold = 1.0;        
     const holdTime = 2000;            
     const cooldown = 4000;            
