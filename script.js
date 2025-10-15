@@ -9,15 +9,15 @@
     // Hier kun je jouw classes aan geluiden en afbeeldingen koppelen
 
     const sounds = {
-        "Mars": new Audio("my_sounds/mars.mp3"),
-        "Snickers": new Audio("my_sounds/snickers.mp3"),
-        "Milkyway": new Audio("my_sounds/milkyway.mp3")
+        "Batman": new Audio("my_sounds/batman.mp3"),
+        "PawPatrol": new Audio("my_sounds/paw patrol.mp3"),
+        "Puppy": new Audio("my_sounds/puppy.mp3")
     };
 
     const images = {
-        "Mars": "my_images/mars.png",
-        "Snickers": "my_images/snickers.png",
-        "Milkyway": "my_images/milkyway.png",
+        "Batman": "my_images/pizza.png",
+        "PawPatrol": "my_images/koekje.png",
+        "Puppy": "my_images/chocolade.png",
         "Neutral": "my_images/neutraal.png"
     };
 
