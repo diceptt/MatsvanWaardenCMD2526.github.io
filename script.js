@@ -171,7 +171,7 @@
     };
 
     // 🔧 Instellingen
-    const CONFIDENCE_THRESHOLD = 0.7;  // minimaal vertrouwen
+    const CONFIDENCE_THRESHOLD = 0.9;  // minimaal vertrouwen
     const HOLD_TIME = 2000;            // tijd dat object stabiel zichtbaar moet zijn
     const COOLDOWN = 4000;             // wachttijd voor volgende detectie
     const DISPLAY_TIME = 5000;         // hoelang het plaatje zichtbaar blijft
@@ -223,6 +223,7 @@
         if (model) await predict();
         requestAnimationFrame(loop);
     }
+    
 
     async function predict() {
         const prediction = await model.predict(webcam.canvas);
